@@ -3,13 +3,7 @@ layout: page
 title: About
 ---
 
-This is an about page about this awesome site.
-Hope you love it!
+THis is my little space on the interweb, where I can post anything really. I shouldn't bother reading.
 
-Reasons:
-- its great.
-- its a test.
 
-## Other thoughts
 
-This is great.
