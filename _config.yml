@@ -6,13 +6,11 @@ description: a few of my jottings
 #twitter_username: jekyllrb
 github_username:  pythonxadds
 
-minima:
-  skin: dark
+
 
 # Build settings
 
-markdown: kramdown
-theme: minima
+theme :minima Dark
 
-minima:
-  skin: dark
+
+
