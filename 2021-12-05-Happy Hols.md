@@ -1,7 +1,10 @@
-layout: post
+---
 
-Title: Seasonal greetings
+   Layout: Post
+   
+   Title: Season Greetings 
 
+---
 
 
 MERRY XMAS
