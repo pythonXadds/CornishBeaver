@@ -9,3 +9,6 @@ github_username:  pythonxadds
 # Build settings
 markdown: kramdown
 theme: minima
+
+minima:
+  skin: dark
