@@ -10,7 +10,9 @@ github_username:  pythonxadds
 
 # Build settings
 
-theme: minima dark
+theme: minima 
+
+skin: dark.scss
 
 
 
