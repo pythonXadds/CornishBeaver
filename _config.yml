@@ -10,9 +10,9 @@ github_username:  pythonxadds
 
 # Build settings
 
-theme: minima 
+  # theme: minima 
 
-skin: dark
+# skin: dark
 
-
+remote_theme: "dracula/gh-pages"
 
