@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>set caps lock to escape</title>
+  </head>
+  <body>
+    <h1>How to remap caps-lock to escape</h1>
+    <p><br>
+      Create a file at ~/.xmodmap with the following content:<br>
+      <br>
+      ! -*- coding: utf-8 -*-<br>
+      ! 2014-09-10<br>
+      ! make caps lock do escape<br>
+      ! from http://xahlee.info/<br>
+      <br>
+      ! keycode&nbsp;&nbsp; 9 = Escape NoSymbol Escape<br>
+      ! keycode&nbsp; 66 = Caps_Lock NoSymbol Caps_Lock<br>
+      <br>
+      clear Lock<br>
+      keycode 66 = Escape NoSymbol Escape<br>
+      Now, run this line in terminal:<br>
+      <br>
+      xmodmap ~/.xmodmap<br>
+    </p>
+    <br>
+    &nbsp;_&nbsp;&nbsp;&nbsp; _&nbsp;&nbsp;&nbsp; __&nbsp;&nbsp;&nbsp;
+    __&nbsp;&nbsp;&nbsp; __&nbsp;&nbsp; <br>
+    &nbsp;| |&nbsp; | |&nbsp; |&nbsp; |&nbsp; |&nbsp; \&nbsp;
+    /&nbsp;&nbsp; |&nbsp; |<br>
+    &nbsp;| |&nbsp; / |&nbsp; |&nbsp; |&nbsp; | \ \/ /&nbsp; |&nbsp; |<br>
+    &nbsp; \ \/ /&nbsp;&nbsp; |&nbsp; |&nbsp; | |\__/| |&nbsp; |<br>
+    &nbsp;&nbsp; \__/&nbsp;&nbsp;&nbsp; |__|&nbsp; |_|&nbsp;&nbsp;&nbsp;
+    |_|&nbsp; <br>
+  </body>
+</html>
