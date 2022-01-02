@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>2022-01-01-how-to -edit-deb-files</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.36" />
+	<meta name="date" content="2022-01-02T02:40:57+0000" />
+	<style type="text/css">
+	body
+	{
+		font-family: Monospace, monospace;
+		font-size: 13pt;
+	}
+	.style_0
+	{
+		color: #0000FF;
+		background-color: #ffffff;
+	}
+	.style_2
+	{
+		color: #0000d0;
+		background-color: #ffffff;
+	}
+
+	</style>
+</head> 
+
+<body>
+	
+<head1><strong>How to edit a deb file</strong></head1>	
+<p>
+<br />
+<span class="style_0">Let’s&nbsp;download&nbsp;a&nbsp;sample&nbsp;deb&nbsp;package&nbsp;which&nbsp;is&nbsp;no&nbsp;longer&nbsp;supported&nbsp;in&nbsp;Ubuntu-14.04&nbsp;(may&nbsp;be&nbsp;even&nbsp;earlier&nbsp;releases&nbsp;too).&nbsp;</span><br />
+<br />
+<span class="style_0">1.&nbsp;mkdir&nbsp;/tmp/deb-exp&nbsp;</span><span class="style_2">&amp;&amp;&nbsp;</span><span class="style_0">cd&nbsp;/tmp/deb-exp</span><br />
+<br />
+<span class="style_0">2.&nbsp;wget&nbsp;http://zevenos.com/files/lxproxy_0.1ubuntu3_all.deb</span><br />
+<br />
+<span class="style_0">3.&nbsp;A&nbsp;typical&nbsp;deb&nbsp;file&nbsp;contains&nbsp;usr,&nbsp;DEBIAN&nbsp;directory,&nbsp;usually&nbsp;in&nbsp;compressed&nbsp;form.&nbsp;Extract&nbsp;them&nbsp;as&nbsp;</span><br />
+<br />
+<span class="style_0">'&nbsp;sudo&nbsp;dpkg-deb&nbsp;-R&nbsp;lxproxy_0.1ubuntu3_all.deb&nbsp;extracted-files/&nbsp;'</span><br />
+<br />
+<span class="style_0">4.&nbsp;Edit&nbsp;the&nbsp;relevant&nbsp;file,&nbsp;in&nbsp;our&nbsp;case&nbsp;control&nbsp;file&nbsp;and&nbsp;repack&nbsp;the&nbsp;deb</span><br />
+<br />
+<span class="style_0">sudo&nbsp;dpkg-deb&nbsp;-b&nbsp;extracted-files/&nbsp;lxproxy_0.1ubuntu3_1_1404_all.deb</span>
+</p>
+</body>
+</html>
