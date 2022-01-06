@@ -16,7 +16,10 @@ What can I write about this sad event? nothing much. except to say;
 
 *J* You are and always be my Soul-pal.
 
+
+
 ![RIP](https://raw.githubusercontent.com/pythonXadds/pymd/master/yellowflowerdivider.gif)
 
 Peace off! 
 
+Love you forever Friend.
