@@ -1,6 +1,6 @@
 # It's been a while
 
-![](/home/adamh/Pictures/loops.png)
+![](/home/adamh/my blog/pymd/assets/i3.png)
 
 I haven't posted anything on this page for quite some time. I have been having a break from the internet and as a consequence not really posted anything here!
 
