@@ -1,6 +1,6 @@
 # It's been a while
 
-![](https://github.com/pythonXadds/pymd/blob/master/assets/i3.png)
+![https://github.com/pythonXadds/CornishBeaver/blob/master/assets/i3.png]()
 
 I haven't posted anything on this page for quite some time. I have been having a break from the internet and as a consequence not really posted anything here!
 
