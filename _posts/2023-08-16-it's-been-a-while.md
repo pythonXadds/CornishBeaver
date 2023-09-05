@@ -19,5 +19,5 @@ I thought I would record a list of my favourite window managers and apps, so tha
 
 That concludes my list. Screenshots might follow.
 
-
+<img src="/Screenshot from 2023-09-05 12-26-24.png" alt="Alt text" title="Optional title">
 
